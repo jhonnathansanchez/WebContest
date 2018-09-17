@@ -1,0 +1,56 @@
+body {
+background-color: #0080FF ;
+}
+#Registro {
+position: relative;
+margin-top:10px;
+left: 1050px;
+color: #000000;
+}
+h1 {
+	text-align: center;
+    color:  #FFFFFF ;
+}
+#columnas{
+   column-count:3;
+   column-gap:20px;
+
+}
+#main {
+   min-height: 800px;
+   margin: 0px;
+   padding: 0px;
+   display: -webkit-flex;
+   display:         flex;
+   }
+ 
+  #main > article {
+   margin: 4px;
+   padding: 5px;
+   border-radius: 7pt;
+   background: #dddd88;
+   -webkit-flex: 3 1 60%;
+   -webkit-order: 2;
+   }
+  
+  
+  #main > aside {
+   margin: 4px;
+   padding: 5px;
+   border-radius: 7pt;
+   background: #ccccff;
+   -webkit-flex: 1 6 20%;
+   -webkit-order: 3;
+   }
+ 
+  header , footer {
+   display: block;
+   margin: 0px;
+   padding: 0px;
+   min-height: 100px;
+   background: #ffeebb;
+   }
+
+
+
+ 
